@@ -26,3 +26,11 @@
     border: 3px solid violet;
     box-shadow: 0 3px 20px violet;
 }
+
+#actividad button{
+    background: transparent;
+    border: none;
+}
+#actividad button:hover{
+    cursor: pointer;
+}

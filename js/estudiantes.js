@@ -11,4 +11,12 @@ function mostrarActividad() {
     actividad.style.display = 'block';
 }
 
+function ocultarActividad(){
+    seccionesEstudiante.forEach(seccion => {
+        seccion.style.display = 'block';
+    });
+    // Muestra la actividad
+    actividad.style.display = 'none';
+}
+
 
