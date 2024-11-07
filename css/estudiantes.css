@@ -1,0 +1,28 @@
+
+.grandeEstudiantes{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.seccionEstudiante{
+    display: flex;
+}
+
+.seccionEstudiante button{
+    padding: 4em;
+    background-color: transparent;
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
+    border: 2px solid;
+}
+
+.seccionEstudiante button:hover{
+    cursor: pointer;
+}
+
+#actividad{
+    display: none;
+    width: 30vw;
+    height: 65vh;
+    border: 3px solid violet;
+    box-shadow: 0 3px 20px violet;
+}
